@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    
+    background-color: rgb(7, 13, 47);
+}
+.zagolovok{
+    text-align: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.obertka{
+    padding-top: 40px;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-column: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+}
+.wrapper{
+    padding-top: 40px;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-column: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+}
+
+.but{
+    border-radius: 10px;
+    height: 90px;
+    width: 120px;
+    background-color: white;
+    border-color: aqua;
+    border: 3px solid aqua;
+}
+.theory{
+    
+    text-align: center;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    border-color: aqua;
+    border: 3px solid aqua;
+    width: 56%;
+    height: 70%;
+    margin-top: 20px;
+    margin-left: 22%;
+    margin-right: 22%;
+
+}
+.input{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#message{
+    background-color: green;
+    border-radius: 10px;
+   
+    
+    width: 180px;
+    height: 90px;
+    visibility: hidden;
+    display: none;
+    left: 915px;
+    right: 915px;
+    top: 20px;
+
+}
+
+#mes{
+    background-color: red;
+    color: red;
+    font-size: 30px;
+
+}
+.demo{
+    background-color: white;
+}
